@@ -6,14 +6,12 @@ public class Palindrom {
     }
     private static String originalText() {
         String[] palindrom = {"T", "e", "n", "e", "t"};
-        int i = 0;
         System.out.println(Arrays.toString(palindrom));
-        for (i = 0; i < palindrom.length; i++) {
+        for (int i = 0; i < 1; i++) {
             for (int j = palindrom.length - 1; j >= 0; j--) {
                 System.out.print(palindrom[j]);
             }
             System.out.println();
-            break;
         }
         return null;
     }
